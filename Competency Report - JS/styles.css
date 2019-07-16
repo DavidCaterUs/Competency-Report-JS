@@ -1,0 +1,163 @@
+body html{
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+hr{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  background-color: #fdda16;
+  background-image: url(background.jpg);
+}
+
+.container-fluid {
+  padding: 12% 15%;
+  background-color: #fdda16;
+  background-image: url(background.jpg);
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 2rem;
+  font-family: 'Montserrat';
+    font-weight: bold;
+  color: #212529;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #212529;
+}
+
+/* Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 90%;
+  transform: rotate(25deg);
+}
+
+.title-image1 {
+  width: 90%;
+  transform: rotate(-25deg);
+}
+/* Features */
+#features {
+  background-color: #fff;
+  padding: 10% 15%;
+  margin-bottom: 0;
+}
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 10% 15%;
+  font-size: 3.5rem;
+}
+
+p{
+    color: #212529;
+  font-family: 'Montserrat'
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pic {
+  height: 30%;
+  width: 30%;
+  margin-bottom: 1.25rem;
+}
+
+.pic {
+  height: 14.5rem;
+  width: 14.5rem;
+  margin-bottom: 1.25rem;
+  padding: 0;
+}
+.pic1 {
+  height: 14.5rem;
+  width: 14.5rem;
+  margin-bottom: 1.25rem;
+}
+.pic2 {
+  height: 14.5rem;
+  width: 14.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.pic:hover{
+  transform: translateY(-10px);
+}
+.pic1:hover{
+  transform: translateY(-10px);
+}
+
+
+
+#footer{
+background-color:   #fdda16;
+bottom: 0;
+
+}
+ .foot{
+   margin: 0;
+
+ }
+.p2{
+  font-weight: bold;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0;
+}
+#console{
+  margin: 0;
+  padding: 0;
+  background-color: #fdda16;
+}
+.container-fluid{
+  font-weight: bold;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin: 0;
+  color: #212529;
+  font-size: 3.3rem;
+  border-radius: 20%;
+  font-style: italic;
+  text-decoration: underline;
+
+}

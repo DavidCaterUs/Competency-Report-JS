@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" charset="">
+  <!-- Bootstrap CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+
+
+  <!-- Font Awesome  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="logofav.ico">
+
+  <title>Super Mario Game</title>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html" target="_blank"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""></a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col" col-lg-6>
+          <img class="title-image1" src="logo.png" alt="iphone-mockup">
+        </div>
+
+        <div class="col" col-lg-6>
+          <img class="title-image" src="logo.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-6 col-sm-6">
+        <img class="pic" src="https://media.giphy.com/media/MXcpEMuEwGvyMI9nft/giphy.gif" alt="">
+        <h3>Yoshi!</h3>
+        <button onclick="yoshi.attack(toad,selectItem())" type="button" class="btn btn-danger btn-lg download-btn">
+          <i class="far fa-angry"></i> ATTACK <i class="far fa-angry"></i></button>
+        <hr>
+        <div id="Yoshi">
+
+        </div>
+      </div>
+
+      <div class="feature-box col-lg-6 col-sm-6">
+        <img class="pic1" src="https://media.giphy.com/media/4UX67HE5yk5iM/giphy.gif" alt="">
+        <h3>Toad!</h3>
+        <button onclick="toad.attack(yoshi,selectItem())" type="button" class="btn btn-danger btn-lg download-btn">
+          <i class="far fa-angry"></i> ATTACK <i class="far fa-angry"></i> </button>
+          <hr>
+          <div id="Toad">
+
+          </div>
+      </div>
+
+      <div class="container-fluid" id="console">
+    ...
+  </div>
+
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+
+    <div class="foot">
+        <h6 class="p2">© Copyright 2019 Nintendo</h6>
+    </div>
+
+  </footer>
+
+<script src="myscript.js">
+$( "button" ).on({'touchstart'function()} {
+  $( attack ).slideUp();
+}});
+</script>
+</body>
+</html>
